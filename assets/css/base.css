@@ -5,6 +5,8 @@
     --primary-red: 250;
     --primary-green: 85;
     --primary-blue: 48;
+    --primary-color: rgb(250, 85, 28);
+    --border-color: #dbdbdb;
 }
 
 * {
@@ -74,8 +76,6 @@ html {
 
 .modal__body {
     z-index: 9999;
-    width: 300px;
-    height: 300px;
     background-color: #fff;
     margin: auto;
     border-radius: 5px;
@@ -83,4 +83,39 @@ html {
 
 .model__inner {
     
+}
+/* Button */
+.btn {
+    min-width: 142px;
+    height: 34px;
+    border: none;
+    text-decoration: none;
+    font-size: 1.4rem;
+    border-radius: 2px;
+    padding: 0;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn:hover {
+    opacity: 0.8;
+}
+.btn.btn--primary {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+
+.btn.btn--disable {
+    cursor: default;
+    background-color: #999;
+    color: #ccc;
+}
+.btn.btn-with-icon {
+
+}
+.btn.btn--size-s{
+    height: 30px;
+    font-size: 1.2rem;
 }
