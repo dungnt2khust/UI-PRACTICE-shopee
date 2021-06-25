@@ -13,3 +13,16 @@ function showLoginForm() {
 function backButton () {
     document.getElementById("modal").setAttribute("style", "display: none;");
 }
+
+function buttonSelect () {
+    var selection = document.getElementById("selection"),
+        style = window.getComputedStyle(selection),
+        displaySelection = style.getPropertyValue('display');
+
+    if (displaySelection === "none") {
+        document.getElementById("selection").setAttribute("style", "display: block");
+    } 
+    else {
+        document.getElementById("selection").setAttribute("style", "display: none");
+    }
+}
