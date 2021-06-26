@@ -1046,3 +1046,65 @@ i.like-fill {
 .pagination--current:hover {
     opacity: 0.6;
 }
+/* footer */
+.footer {
+    padding-top: 16px;
+    border-top: 4px solid var(--primary-color);
+}
+.footer__heading {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+.footer__list {
+    padding-left: 0;
+    list-style: none;
+}
+.footer__item-link {
+    font-size: 1.2rem;
+    color: #666;
+    text-decoration: none;
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+}
+.footer__item-link:hover {
+    color: var(--primary-color);
+}
+.footer__item-icon {
+    font-size: 1.4rem;
+    width: 20px;
+    margin-top: -1px;
+}
+.footer__download {
+    display: flex;
+}
+.footer__download-qr {
+    width: 80px;
+    object-fit: contain;
+}
+.footer__download-apps {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 10px;
+}
+.footer__download-app-img {
+    width: 100px;
+}
+.footer__download-apps-link {
+    text-decoration: none;
+    color: #fff;
+}
+.footer__copyright {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+    border-top: 1px solid #ccc;
+}
+.footer__copyright-text {
+    font-size: 1.2rem;
+    color: #aaa;
+}
+.footer__infor {
+    margin-bottom: 50px;
+}
