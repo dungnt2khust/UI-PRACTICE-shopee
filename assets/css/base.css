@@ -12,6 +12,7 @@
     --height-navbar: 38px;
     --height-header-with-search: 120px;
     --height-header: var(--height-navbar) + var(var(--height-header-with-search));
+    --star-gold-color: #ffce3e;
 }
 
 * {
@@ -40,14 +41,19 @@ html {
 .grid__row {
     display: flex;
     flex-wrap: wrap;
-    margin-left: -12px;
-    margin-right: -12px;
+    margin-left: -5px;
+    margin-right: -5px;
 }
 /* Column */
 .grid__column-2 {
-    padding-left: 12px;
-    padding-right: 12px; 
+    padding-left: 5px;
+    padding-right: 5px; 
     width: 16.667%;
+}
+.grid__column-2-4 {
+    padding-left: 5px;
+    padding-right: 5px; 
+    width: 20%;
 }
 .grid__column-10 {
     padding-left: 12px;
@@ -186,6 +192,7 @@ html {
     list-style: none;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
     display: none;
+    z-index: 1;
 }
 .select-input__link {
     font-size: 1.4rem;
