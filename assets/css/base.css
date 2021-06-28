@@ -11,7 +11,7 @@
     --growth-to: 100%;
     --height-navbar: 38px;
     --height-header-with-search: 120px;
-    --height-header: var(--height-navbar) + var(var(--height-header-with-search));
+    --height-header: var(--height-navbar) + var(--height-header-with-search);
     --star-gold-color: #ffce3e;
 }
 
@@ -60,6 +60,7 @@ html {
     padding-right: 12px; 
     width: 83.334%;
 }
+
 /* Animations */
 @keyframes fadeIn {
     from {
