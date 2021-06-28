@@ -58,6 +58,23 @@
     .footer__content {
         padding: 0 20px;
     }
+    .header__search-icon-wrap .header__search-icon {
+        display: block;
+    } 
+    .header__search-icon-wrap {
+        height: 30px;
+        width: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+    }
+    .input-check-search:checked ~ .header__search {
+        display: flex;
+    } 
+    .header__search-non-pc {
+        
+    }
 }
 
 /* Tablet */
